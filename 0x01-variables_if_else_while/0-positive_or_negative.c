@@ -2,18 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
- * print whether the number stored in the variable n is positive or negative
- * return : always (true)
+ * main - print whether the number stored in the variable n is positive or negative
+ * Return : Always (true)
  */
-int main (void)
-
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
