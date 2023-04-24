@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - print whether the number stored in the variable n is positive or negative
- * Return : Always (true)
+ * main - print number stored in variable n positive or negative
+ * Return: Always (Success)
  */
 int main(void)
 {
