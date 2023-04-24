@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-	char low_upper;
-	
-	for (low_upper = 'a'; low_upper <= 'z'; low_upper++)
+char low_upper;
+
+for (low_upper = 'a'; low_upper <= 'z'; low_upper++)
 	{
 	putchar(low_upper);
 	}
