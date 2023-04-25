@@ -3,15 +3,13 @@
 #include <time.h>
 
 /**
-* main - program that prints all possible combinations of single-digit 
-
-numbers
+* main - program that prints all possible combinations of single-digit numbers
 * Return: 0 (Success)
 */
 
 int main(void)
 {
-	int e:
+	int e;
 
 	for (e = '0'; e <= '9'; e++)
 	{
