@@ -3,21 +3,21 @@
 #include <time.h>
 
 /**
-* main - program that prints all single digit numbers of base 10 starting from 0 using putchar
+* main - prints all the numbers of base 16 in lowercase
 * Return: 0 Always (Success)
 */
 
 int main(void)
 {
 	int c;
-	char alphnumb;
+	char naba;
 
 	for (c = '0'; c <= '9'; c++)
 	putchar(c);
 
-	for (alphnumb = 'a'; alphnumb <= 'f'; alphnumb++)
-	putchar(alphnumb);
-	alphnumb('\n');
+	for (naba = 'a'; naba <= 'f'; naba++)
+	putchar(naba);
+	putchar('\n');
 
 	return (0);
 }
